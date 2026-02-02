@@ -35,9 +35,9 @@ export function FooterImpl() {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>
+      {/* <div className={styles.copyright}>
         Copyright {currentYear} {config.author}
-      </div>
+      </div> */}
 
       <div className={styles.settings}>
         {hasMounted && (
@@ -54,7 +54,7 @@ export function FooterImpl() {
       </div>
 
       <div className={styles.social}>
-        {config.twitter && (
+        {/* {config.twitter && (
           <a
             className={styles.twitter}
             href={`https://twitter.com/${config.twitter}`}
@@ -64,9 +64,9 @@ export function FooterImpl() {
           >
             <FaTwitter />
           </a>
-        )}
+        )} */}
 
-        {config.mastodon && (
+        {/* {config.mastodon && (
           <a
             className={styles.mastodon}
             href={config.mastodon}
@@ -75,9 +75,9 @@ export function FooterImpl() {
           >
             <FaMastodon />
           </a>
-        )}
+        )} */}
 
-        {config.zhihu && (
+        {/* {config.zhihu && (
           <a
             className={styles.zhihu}
             href={`https://zhihu.com/people/${config.zhihu}`}
@@ -87,9 +87,9 @@ export function FooterImpl() {
           >
             <FaZhihu />
           </a>
-        )}
+        )} */}
 
-        {config.github && (
+        {/* {config.github && (
           <a
             className={styles.github}
             href={`https://github.com/${config.github}`}
@@ -99,9 +99,9 @@ export function FooterImpl() {
           >
             <FaGithub />
           </a>
-        )}
+        )} */}
 
-        {config.linkedin && (
+        {/* {config.linkedin && (
           <a
             className={styles.linkedin}
             href={`https://www.linkedin.com/in/${config.linkedin}`}
@@ -111,7 +111,7 @@ export function FooterImpl() {
           >
             <FaLinkedin />
           </a>
-        )}
+        )} */}
 
         {config.newsletter && (
           <a
@@ -125,7 +125,7 @@ export function FooterImpl() {
           </a>
         )}
 
-        {config.youtube && (
+        {/* {config.youtube && (
           <a
             className={styles.youtube}
             href={`https://www.youtube.com/${config.youtube}`}
@@ -135,7 +135,7 @@ export function FooterImpl() {
           >
             <FaYoutube />
           </a>
-        )}
+        )} */}
       </div>
     </footer>
   )
