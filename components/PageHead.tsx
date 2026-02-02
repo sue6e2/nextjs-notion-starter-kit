@@ -61,9 +61,9 @@ export function PageHead({
         </>
       )}
 
-      {config.twitter && (
+      {/* {config.twitter && (
         <meta name='twitter:creator' content={`@${config.twitter}`} />
-      )}
+      )} */}
 
       {description && (
         <>
